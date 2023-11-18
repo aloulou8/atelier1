@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Inscription</title>
+</head>
+<body>
+    <header><hr></header>
+    <section>
+        <h2>Inscription</h2>
+
+        <form >
+            <table>
+                <tr>
+                    <td><label for="nom">First Name*</label></td>
+                    <td><input type="text" id="nom" name="nom" required minlength="3"></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Last Name</label></td>
+                    <td><input type="text" id="prenom" name="prenom"  minlength="3"></td>
+                </tr>
+                <tr>
+                    <td><label for="adresse">adresse</label></td>
+                    <td> <textarea
+                        
+                        cols="30"
+                        rows="10"
+                        class="contact__form-input"
+                        
+                        name="adresse"
+                        id="adresse"
+                      ></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="telephone">phone number*:</label></td>
+                    <td><input type="tel" id="telephone" name="telephone" required pattern="[0-9]+" ></td>
+                </tr>
+                <tr>
+                    <td><label for="dateNaissance">Date of birth:</label></td>
+                    <td><input type="date" id="dateNaissance" name="dateNaissance" ></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email*:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="motDePasse">password*:</label></td>
+                    <td><input type="password" id="motDePasse" name="motDePasse" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="motDePasse">confirm password*:</label></td>
+                    <td><input type="password" id="motDePasse" name="motDePasse" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="submit"><input type="reset" value="reset"></td>
+                </tr>
+
+            
+            
+            
+            
+            
+            
+    
+         
+            </table>
+
+
+        </form>
+    
+    </body>
+    </html>
+    </section>
+    <footer>
+        <hr>
+        <b>contactez nous</b><br>
+        <p><a href="#">mail: espri<àesprit.tn</a><p align="right">nowhere street</p></p>
+    </footer>
+</body>
